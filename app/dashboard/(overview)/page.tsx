@@ -4,8 +4,11 @@ import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
 import { lusitana } from "@/app/ui/fonts";
 import { fetchCardData } from "@/app/lib/data";
 import { Suspense } from "react";
-import { RevenueChartSkeleton, CardSkeleton } from "@/app/ui/skeletons";
-import { LatestInvoicesSkeleton } from "@/nextjs-learning/app/ui/skeletons";
+import {
+  RevenueChartSkeleton,
+  CardSkeleton,
+  LatestInvoicesSkeleton,
+} from "@/app/ui/skeletons";
 
 export default async function Page() {
   return (
